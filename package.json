@@ -1,9 +1,12 @@
 {
   "name": "@superinstance/canon-hash",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fetch the current Live Canon state hash (FNV-1a 64-bit). Use for cache invalidation and deployment checks.",
   "main": "index.js",
-  "files": ["index.js", "README.md"],
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "node test/test.js"
   },
@@ -18,10 +21,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SuperInstance/canon-hash.git"
+    "url": "git+https://github.com/SuperInstance/canon-hash.git"
   },
   "homepage": "https://live-canon.superinstance.dev",
   "engines": {
     "node": ">=18.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SuperInstance/canon-hash/issues"
   }
 }
